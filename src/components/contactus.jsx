@@ -81,46 +81,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        {/* Additional Sections */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <div className="p-6">
-              <h3 className="text-xl font-bold text-blue-600 flex items-center mb-4">
-                <MessageSquare className="w-5 h-5 mr-2 text-orange-500" />
-                Customer Support
-              </h3>
-              <p className="text-gray-600">Our dedicated team is available 24/7 to assist you with any inquiries or issues.</p>
-            </div>
-            <div className="px-6 pb-6">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">24/7 Support</span>
-            </div>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <div className="p-6">
-              <h3 className="text-xl font-bold text-blue-600 flex items-center mb-4">
-                <ThumbsUp className="w-5 h-5 mr-2 text-orange-500" />
-                Feedback
-              </h3>
-              <p className="text-gray-600">We value your input. Share your thoughts to help us improve our services.</p>
-            </div>
-            <div className="px-6 pb-6">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Your Voice Matters</span>
-            </div>
-          </div>
-          <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-            <div className="p-6">
-              <h3 className="text-xl font-bold text-blue-600 flex items-center mb-4">
-                <HelpCircle className="w-5 h-5 mr-2 text-orange-500" />
-                General Inquiries
-              </h3>
-              <p className="text-gray-600">For any other questions, our team is ready to provide prompt and helpful responses.</p>
-            </div>
-            <div className="px-6 pb-6">
-              <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Quick Responses</span>
-            </div>
-          </div>
-        </div>
-
+       
         {/* Our Location */}
         <div className="bg-white shadow-lg rounded-lg mt-6 overflow-hidden">
           <div className="p-6">
@@ -228,27 +189,7 @@ export default function ContactUs() {
           </div>
         </div>
 
-        {/* Branch Locations */}
-        <div className="bg-red-500 text-white shadow-lg rounded-lg mt-6 overflow-hidden">
-          <div className="p-6">
-            <h2 className="text-2xl font-bold mb-6">Our Branch Locations</h2>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <div>
-                <h3 className="font-bold mb-2">New York</h3>
-                <p>123 Business Ave, New York, NY 10001</p>
-              </div>
-              <div>
-                <h3 className="font-bold mb-2">Los Angeles</h3>
-                <p>456 Palm Street, Los Angeles, CA 90001</p>
-              </div>
-              <div>
-                <h3 className="font-bold mb-2">Chicago</h3>
-                <p>789 Windy Lane, Chicago, IL 60601</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
 
       {/* Footer */}
       <footer className="bg-blue-600 text-white mt-6 py-8">
@@ -298,6 +239,7 @@ export default function ContactUs() {
           </div>
         </div>
       </footer>
+    </div>
     </div>
   )
 }
